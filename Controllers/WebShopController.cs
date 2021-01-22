@@ -522,6 +522,12 @@ namespace baze.Controllers
                 }
 
                 var ind = rand.Next(products.Count);
+
+                while( selectedProducts.Find(y => y.productid == products.ElementAt(ind).productid) != null)
+                {
+                    ind = rand.Next(products.Count);
+                }
+
                 selectedProducts.Add(products.ElementAt(ind));
 
                 
