@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\baze.csproj": {}
+    "C:\\NBP-Final\\NBP-BetterShop\\baze.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\baze.csproj": {
+    "C:\\NBP-Final\\NBP-BetterShop\\baze.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\baze.csproj",
+        "projectUniqueName": "C:\\NBP-Final\\NBP-BetterShop\\baze.csproj",
         "projectName": "baze",
-        "projectPath": "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\baze.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\obj\\",
+        "projectPath": "C:\\NBP-Final\\NBP-BetterShop\\baze.csproj",
+        "packagesPath": "C:\\Users\\lukac\\.nuget\\packages\\",
+        "outputPath": "C:\\NBP-Final\\NBP-BetterShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lukac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
