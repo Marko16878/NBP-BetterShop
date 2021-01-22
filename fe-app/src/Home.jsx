@@ -45,7 +45,7 @@ export default function Home() {
           getProductsTopRankingOAC();
           getProductsBestSellrsCAT();
           getProductsBestSellrsCAO();
-      }, [logIn]);
+      }, []);
 
       
 
@@ -121,16 +121,7 @@ export default function Home() {
 
        
 
-       <div className="divBestSellers">
-            <img className="" src={bestSellersIcon}/> Best Sellers
-            
-            <div className="bestSellers">
-                
-
-
-
-            </div>
-       </div>
+       
        
 
       

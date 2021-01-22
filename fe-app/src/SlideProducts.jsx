@@ -18,7 +18,7 @@ import recommendedToYouIcon from "./Images/recommendedToYouIcon.png"
       <div className="slide-container-products">
         <Slide showNavs="false">
           <div className="each-slide-products">
-           <p><img className="" src={topRankingIcon}/>Top Ranking from Cellphones And Telecommunications</p>
+           <p><img className="" src={topRankingIcon}/> Top Ranking from Cellphones And Telecommunications</p>
           <div className="topRanking">
                 
                 {data1.map(product => (
@@ -31,7 +31,7 @@ import recommendedToYouIcon from "./Images/recommendedToYouIcon.png"
             
           </div>
           <div className="each-slide-products">
-           <p><img className="" src={topRankingIcon}/>Top Ranking from Office And Computers</p>
+           <p><img className="" src={topRankingIcon}/> Top Ranking from Office And Computers</p>
           <div className="topRanking">
                 
                 {data2.map(product => (
