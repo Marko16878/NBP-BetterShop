@@ -1,0 +1,89 @@
+.divCart{
+    
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+}
+.productsInCart{
+    width: 720px;
+    height: 700px;
+    
+    margin: 10px;
+    overflow-y: scroll;
+}
+.productsInCart::-webkit-scrollbar {
+    display: none;
+}
+.orderSummary{
+    border: tomato;
+    width: 260px;
+    height: 220px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid rgb(220, 220, 220);
+    font-size: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.orderSummary text{
+    font-size: 15px;
+    margin-right: 100px;
+}
+.buyButton{
+    width: 260px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 71, 71);
+    border:none;
+    
+    font-weight: bold;
+}
+.productInCart{
+    width: 660px;
+    height: 200px;
+    background-color: white;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+.productInCartImage{
+    width: 180px;
+    height: 180px;
+}
+.productInCartDetail{
+    width: 460px;
+    height: 180px;
+    
+    margin-left: 20px;
+}
+.productInCartDetail p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.productInCartDescription{
+    font-size: 11px;
+    height: 60px;
+}
+.removeButton{
+    position: relative;
+    top: -35px;
+    left: 390px;
+    color: white;
+    background-color: rgb(255, 154, 0);
+    border:none;
+    border-radius: 5px;
+}
+.productInCartPrice{
+    font-weight: bold;
+}
+.message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}

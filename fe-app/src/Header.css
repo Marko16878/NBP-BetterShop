@@ -1,0 +1,25 @@
+header {
+  justify-content: center;
+  background-color: black;
+  /*background-color: rgb(204, 141, 124);*/
+  border: 0%;
+  display: flex;
+}
+#logo{
+  margin-right: 300px;
+}
+#inputSearch{
+  border: 1px solid rgb(123, 48, 48);
+  border-radius: 5px;
+  height: 25px;
+}
+#buttonSearch{
+  height: 25px;
+  border: 1px solid rgb(123, 48, 48);
+  border-radius: 5px;
+  background-color: rgb(243, 95, 95);
+  color:white;
+  font-size: 17px;
+  margin-left: 10px;
+  font-family: fantasy;
+}

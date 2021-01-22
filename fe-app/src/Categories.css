@@ -1,0 +1,44 @@
+.divCategories{
+
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .categoryCard{
+    color: rgb(41,44,61);
+      height: 100px;
+      width: 180px;
+      background-color: white;
+      /*border: 1px solid rgb(123, 48, 48);*/
+      border: 1px solid rgb(220, 220, 220);
+      margin: 20px 5px;
+      padding: 1px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  .categoryCard:hover{
+    box-shadow: 3px 4px 5px grey;
+    margin: 18px 7px 22px 3px;
+  }
+  .divSubcategories{
+    width: 1000px;
+    border-top: 1px solid rgb(123, 48, 48);
+    display: flex;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+  .divSubcategories li{
+    font-size: 14px;
+  }
+  .backclr{
+    background-color: white;
+  }
+

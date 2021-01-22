@@ -1,0 +1,283 @@
+<<<<<<< HEAD
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\appsettings.Development.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\appsettings.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\baze.exe
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\baze.deps.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\baze.runtimeconfig.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\baze.runtimeconfig.dev.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\ref\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\baze.pdb
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.csprojAssemblyReference.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.GeneratedMSBuildEditorConfig.editorconfig
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.AssemblyInfoInputs.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.AssemblyInfo.cs
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.csproj.CoreCompileInputs.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cs
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.Manifest.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.xml
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\scopedcss\bundle\baze.styles.css
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.RazorTargetAssemblyInfo.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.csproj.CopyComplete
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\ref\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.pdb
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\obj\Debug\net5.0\baze.genruntimeconfig.cache
+=======
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\appsettings.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\my-app\package-lock.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\my-app\package.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\my-app\public\manifest.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\baze.exe
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\baze.deps.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\baze.runtimeconfig.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\baze.runtimeconfig.dev.json
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\baze.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\ref\baze.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\baze.pdb
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dukip\Desktop\baze\WebShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.csprojAssemblyReference.cache
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.AssemblyInfoInputs.cache
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.AssemblyInfo.cs
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.csproj.CoreCompileInputs.cache
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.Manifest.cache
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.xml
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\scopedcss\bundle\baze.styles.css
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.RazorTargetAssemblyInfo.cache
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.csproj.CopyComplete
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.dll
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\ref\baze.dll
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.pdb
+C:\Users\dukip\Desktop\baze\WebShop\obj\Debug\net5.0\baze.genruntimeconfig.cache
+>>>>>>> eea6ac604bdb2c1b6afd051ed4975c0d63ba31f1
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\fe-app\package-lock.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\fe-app\package.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\fe-app\public\manifest.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Cassandra.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\System.CodeDom.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\System.Management.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\NBP\WebShop\obj\Debug\net5.0\baze.csprojAssemblyReference.cache
+C:\NBP\WebShop\obj\Debug\net5.0\baze.GeneratedMSBuildEditorConfig.editorconfig
+C:\NBP\WebShop\obj\Debug\net5.0\baze.AssemblyInfoInputs.cache
+C:\NBP\WebShop\obj\Debug\net5.0\baze.AssemblyInfo.cs
+C:\NBP\WebShop\obj\Debug\net5.0\baze.csproj.CoreCompileInputs.cache
+C:\NBP\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cs
+C:\NBP\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cache
+C:\NBP\WebShop\obj\Debug\net5.0\baze.dll
+C:\NBP\WebShop\obj\Debug\net5.0\ref\baze.dll
+C:\NBP\WebShop\obj\Debug\net5.0\baze.pdb
+C:\NBP\WebShop\bin\Debug\net5.0\appsettings.Development.json
+C:\NBP\WebShop\bin\Debug\net5.0\appsettings.json
+C:\NBP\WebShop\bin\Debug\net5.0\fe-app\package-lock.json
+C:\NBP\WebShop\bin\Debug\net5.0\fe-app\package.json
+C:\NBP\WebShop\bin\Debug\net5.0\fe-app\public\manifest.json
+C:\NBP\WebShop\bin\Debug\net5.0\baze.exe
+C:\NBP\WebShop\bin\Debug\net5.0\baze.deps.json
+C:\NBP\WebShop\bin\Debug\net5.0\baze.runtimeconfig.json
+C:\NBP\WebShop\bin\Debug\net5.0\baze.runtimeconfig.dev.json
+C:\NBP\WebShop\bin\Debug\net5.0\baze.dll
+C:\NBP\WebShop\bin\Debug\net5.0\ref\baze.dll
+C:\NBP\WebShop\bin\Debug\net5.0\baze.pdb
+C:\NBP\WebShop\bin\Debug\net5.0\Cassandra.dll
+C:\NBP\WebShop\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\NBP\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\NBP\WebShop\bin\Debug\net5.0\System.CodeDom.dll
+C:\NBP\WebShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\NBP\WebShop\bin\Debug\net5.0\System.Management.dll
+C:\NBP\WebShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\NBP\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.Manifest.cache
+C:\NBP\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.xml
+C:\NBP\WebShop\obj\Debug\net5.0\scopedcss\bundle\baze.styles.css
+C:\NBP\WebShop\obj\Debug\net5.0\baze.RazorTargetAssemblyInfo.cache
+C:\NBP\WebShop\obj\Debug\net5.0\baze.csproj.CopyComplete
+C:\NBP\WebShop\obj\Debug\net5.0\baze.genruntimeconfig.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\package-lock.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\WebShop\bin\Debug\net5.0\package.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\appsettings.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\fe-app\package-lock.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\fe-app\package.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\fe-app\public\manifest.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\package-lock.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\package.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\baze.exe
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\baze.deps.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\baze.runtimeconfig.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\baze.runtimeconfig.dev.json
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\baze.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\ref\baze.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\baze.pdb
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Cassandra.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\System.Management.dll
+C:\Users\PC\Desktop\WebShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.AssemblyInfo.cs
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.Manifest.cache
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.xml
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\scopedcss\bundle\baze.styles.css
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.csproj.CopyComplete
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.dll
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\ref\baze.dll
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.pdb
+C:\Users\PC\Desktop\WebShop\obj\Debug\net5.0\baze.genruntimeconfig.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\appsettings.Development.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\appsettings.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\fe-app\package-lock.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\fe-app\package.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\fe-app\public\manifest.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\package-lock.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\package.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\baze.exe
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\baze.deps.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\baze.runtimeconfig.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\baze.runtimeconfig.dev.json
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\ref\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\baze.pdb
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Cassandra.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\System.CodeDom.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\System.Management.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.csprojAssemblyReference.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.GeneratedMSBuildEditorConfig.editorconfig
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.AssemblyInfoInputs.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.AssemblyInfo.cs
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.csproj.CoreCompileInputs.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cs
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.Manifest.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.xml
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\scopedcss\bundle\baze.styles.css
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.RazorTargetAssemblyInfo.cache
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.csproj.CopyComplete
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\ref\baze.dll
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.pdb
+D:\Podaci\7. sem\Napredne baze podataka\Cassandra\BetterShop\obj\Debug\net5.0\baze.genruntimeconfig.cache
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\appsettings.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\fe-app\package-lock.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\fe-app\package.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\fe-app\public\manifest.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\package-lock.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\package.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\baze.exe
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\baze.deps.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\baze.runtimeconfig.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\baze.runtimeconfig.dev.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\baze.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\ref\baze.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\baze.pdb
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Cassandra.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\System.Management.dll
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.AssemblyInfo.cs
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.Manifest.cache
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\staticwebassets\baze.StaticWebAssets.xml
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\scopedcss\bundle\baze.styles.css
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.csproj.CopyComplete
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.dll
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\ref\baze.dll
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.pdb
+C:\Users\PC\Desktop\NBP-BetterShop\obj\Debug\net5.0\baze.genruntimeconfig.cache
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\fe-app\build\asset-manifest.json
+C:\Users\PC\Desktop\NBP-BetterShop\bin\Debug\net5.0\fe-app\build\manifest.json

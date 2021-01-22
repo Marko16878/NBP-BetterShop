@@ -1,0 +1,164 @@
+.divDetail{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(123, 48, 48);
+    border-bottom: 1px solid rgb(123, 48, 48);
+    
+
+}
+
+.productDetailImage{
+    width: 350px;
+    height: 350px;
+  
+    border-radius: 10px;
+    margin:10px;
+}
+.details{
+    height: 500px;
+    width: 700px;
+    margin-left: 10px;
+    
+}
+.productName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+.quantity{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+.productDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+    height: 60px;
+    
+}
+.produstPrice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: black;
+      font-weight: bold;
+}
+.buttonBuyNow{
+    width: 170px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 71, 71);
+    border:none;
+    
+    font-weight: bold;
+    margin: 0;
+}
+.buttonAddToCart{
+    width: 170px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 154, 0);
+    border:none;
+    
+    font-weight: bold;
+    margin-left: 10px;
+   
+}
+.numberProducts{
+    display: flex;
+    width: 80px;
+
+}
+.plus{
+    width: 22px;
+    height: 22px;
+    border: 1px solid gray;
+    border-radius: 11px;
+    color: gray;
+    text-align: center;
+    font-size: 13px;
+    
+}
+.minus{
+    width: 22px;
+    height: 22px;
+    border: 1px solid grey;
+    border-radius: 11px;
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+    
+}
+#number{
+    width: 40px;
+    height: 20px;
+    border: none;
+    text-align: center;
+    color: gray;
+}
+.divSimilarProducts{
+    padding: 20px;
+    
+    margin: 0 auto;
+    width: 1008px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+.similarProducts{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+#soldInDetail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-left: 30px;
+    
+}
+#inStock{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: green;
+}
+#outOfStock{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: red;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    
+    width: 140px;
+    margin-top: -8px;
+  }
+  .rating span {
+    display: inline-block;
+   
+    width: 1.1em;
+    font-size: 25px;
+    height: 30px;
+    color: grey;
+  }
+  .rating span:hover:before,
+  .rating span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     color: rgb(255, 154, 0);
+  }
+  
+  .divRating{
+      display: flex;
+      font-size: 15px;
+    color: gray;
+    margin-left: 10px;
+    flex-direction: row;
+  }
