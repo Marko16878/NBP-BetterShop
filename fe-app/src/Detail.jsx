@@ -62,7 +62,7 @@ async function setRating(assessment){
 }
 const getProducts = async () =>
   {
-    const response = await fetch('https://localhost:5001/webshop/GetProductsCategory/'+category[0]);
+    const response = await fetch('https://localhost:5001/webshop/GetSimilarProducts/'+category[1]);
     const data = await response.json();
     
     setProducts(data);
@@ -103,7 +103,7 @@ const getProducts = async () =>
                 <button onClick={() => setCount(count - 1)} className="minus">-</button><label id="number">{count}</label><button onClick={() => setCount(count + 1)} className="plus">+</button>
             </p>
             {cookies.id != null?
-            <p><button className="buttonBuyNow">Buy Now</button>
+            <p><Link to={`/buyNow/${count}/${product.productid}`}><button className="buttonBuyNow">Buy Now</button></Link>
             <button className="buttonAddToCart" onClick={addToCart}>Add To Cart</button></p>
             :
             <p>

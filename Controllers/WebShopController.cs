@@ -785,6 +785,201 @@ namespace baze.Controllers
             return null;
         }
 
+
+        [Route("BuyNow/{userid}/{productid}/{productCount}")]
+        [HttpGet]
+
+        public JsonResult BuyNow (string userid,string productid,int productCount){
+
+
+            ISession session = SessionManager.GetSession();
+            List<Product> products = new List<Product>();
+
+            if (session == null)
+                return null;
+
+           
+            var productsData = session.Execute("select * from products where productid in ( " + productid + " );");
+            
+            foreach(var productData in productsData)
+            {
+                Product product = new Product();
+                product.productid = productData["productid"] != null ? productData["productid"].ToString() : string.Empty;
+                
+                product.categories = new List<string>();
+                if(productData["categories"] != null)
+                {
+                    object categories = productData["categories"];
+                    var categoriesString = JsonConvert.SerializeObject(categories);
+
+                    string[] splitedCategories = categoriesString.Split('[',',','"',']');
+                    foreach(string category in splitedCategories)
+                    {
+                        if(category.Length > 0)
+                        {
+                            product.categories.Add("'" + category.ToString() + "'");
+                        }
+                    }
+                }
+                
+            
+
+                string stringCategories = string.Join(",", product.categories);
+
+                //return new JsonResult(stringCategories);
+                
+                product.description = productData["description"] != null ? productData["description"].ToString() : string.Empty;
+                product.image = productData["image"] != null ? productData["image"].ToString() : string.Empty;
+                product.name = productData["name"] != null ? productData["name"].ToString() : string.Empty;
+                product.price = productData["price"] != null ? productData["price"].ToString() : string.Empty;
+                product.rating = productData["rating"] != null ? productData["rating"].ToString() : string.Empty;
+                product.sold = productData["sold"] != null ? productData["sold"].ToString() : string.Empty;
+                product.stock = productData["stock"] != null ? productData["stock"].ToString() : string.Empty;
+                
+                products.Add(product);
+                
+                var count = productCount;
+                if(Convert.ToInt32(count) > Convert.ToInt32(product.stock))
+                {
+                    string ispis = "Na stanju imamo " + product.stock + " proizvoda: " + product.name;
+                    return new JsonResult(ispis);
+                }
+                var newSold = Convert.ToInt32(product.sold)+1;
+                var newStock = Convert.ToInt32(product.stock)-1;;
+
+
+                session.Execute("update products set sold = " + newSold + ", stock = " + newStock + " where productid = " + product.productid + ";");
+                
+                
+                session.Execute("update products_by_category_rating set sold = " + newSold + " where category in ( " +
+                stringCategories + " ) and rating = " + product.rating + " and productid = " + product.productid + ";");
+
+                session.Execute("update products_by_category set sold = " + newSold  +
+                " where category in ( " + stringCategories + " ) and price = " + product.price + ";");
+
+                session.Execute("delete from products_by_category_sold where category in ( " +
+                stringCategories + " ) and sold = " + product.sold + " and productid = " + product.productid + ";");
+
+                if(productData["categories"] != null)
+                {
+                    object categories = productData["categories"];
+                    var categoriesString = JsonConvert.SerializeObject(categories);
+
+                    string[] splitedCategories = categoriesString.Split('[',',','"',']');
+                    foreach(string category in splitedCategories)
+                    {
+                        if(category.Length > 0)
+                        {
+                            var soldData = session.Execute("insert into products_by_category_sold (productid, added_date, category, image, name, price, rating, sold) values  (" + 
+                            product.productid +  ", toTimeStamp(now()), '" + 
+                            category + "','" + product.image + "', '" + product.name + 
+                            "', " + product.price + ", " + product.rating + ", " + newSold +  ") if not exists;");   
+                            session.Execute("delete from products_by_category_sold where category in ( " +
+                stringCategories + " ) and sold = " + product.sold + " and productid = " + product.productid + ";");
+
+                        }
+                    }
+                }
+                
+
+
+            }
+
+            
+
+            var allCategories = new List<String>();
+
+            foreach (var product in products)
+            {
+                foreach (var category in product.categories)
+                {
+                    allCategories.Add(category);
+                }
+            }
+
+            var rand = new Random();
+            var selectedCategories = new List<String>();
+
+            for(int i=0 ; i<(allCategories.Count-1); i++)
+            {
+                var ind = rand.Next(allCategories.Count-1);
+                selectedCategories.Add(allCategories.ElementAt(ind));
+            }
+
+            var selectedProducts = new List<Product>();
+
+            foreach (var category in selectedCategories)
+            {
+                var productscategoryData = session.Execute("select * from products_by_category where category = " + category + " ;");
+                products = new List<Product>();
+
+                foreach(var productData in productscategoryData)
+                {
+                    Product product = new Product();
+                    product.productid = productData["productid"] != null ? productData["productid"].ToString() : string.Empty;
+                    product.image = productData["image"] != null ? productData["image"].ToString() : string.Empty;
+                    product.name = productData["name"] != null ? productData["name"].ToString() : string.Empty;
+                    product.price = productData["price"] != null ? productData["price"].ToString() : string.Empty;
+                    product.rating = productData["rating"] != null ? productData["rating"].ToString() : string.Empty;
+                    product.added_date = productData["added_date"] != null ? productData["added_date"].ToString() : string.Empty;
+                    product.sold = productData["sold"] != null ? productData["sold"].ToString() : string.Empty;
+                    
+                    products.Add(product);
+                }
+
+                var ind = rand.Next(products.Count);
+
+                while( selectedProducts.Find(y => y.productid == products.ElementAt(ind).productid) != null)
+                {
+                    ind = rand.Next(products.Count);
+                }
+
+                selectedProducts.Add(products.ElementAt(ind));
+
+                
+            }
+
+            foreach(var selectedProduct in selectedProducts)
+            {
+                var recProducts = session.Execute("insert into product_recommendations (userid, added_date, productid, image, name, price,rating,sold) values  (" +
+                    userid + ", toTimeStamp(now()) ," + selectedProduct.productid + ",'" + selectedProduct.image + "','" + 
+                    selectedProduct.name + "'," + selectedProduct.price + "," + selectedProduct.rating + "," + selectedProduct.sold + ") using ttl 864000 ;");
+            }
+
+            return new JsonResult(null);
+        }
+
+        [Route("GetSimilarProducts/{category}")]
+        [HttpGet]
+        
+        public JsonResult GetSimilarProducts(string category)
+        {
+
+            ISession session = SessionManager.GetSession();
+            List<Product> products = new List<Product>();
+
+            if (session == null)
+                return null;
+
+            var productsData = session.Execute("select * from products_by_category where category = '" + category + "' limit 4");
+            
+            foreach(var productData in productsData)
+            {
+                Product product = new Product();
+                product.productid = productData["productid"] != null ? productData["productid"].ToString() : string.Empty;
+                product.added_date = productData["added_date"] != null ? productData["added_date"].ToString() : string.Empty;
+                product.image = productData["image"] != null ? productData["image"].ToString() : string.Empty;
+                product.name = productData["name"] != null ? productData["name"].ToString() : string.Empty;
+                product.price = productData["price"] != null ? productData["price"].ToString() : string.Empty;
+                product.rating = productData["rating"] != null ? productData["rating"].ToString() : string.Empty;
+                product.sold = productData["sold"] != null ? productData["sold"].ToString() : string.Empty;
+                
+                products.Add(product);
+            }
+
+            return new JsonResult(products);
+        }
+
         
     }
 }

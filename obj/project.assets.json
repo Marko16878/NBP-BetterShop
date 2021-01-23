@@ -4024,19 +4024,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lukac\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\NBP-Final\\NBP-BetterShop\\baze.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\baze.csproj",
       "projectName": "baze",
-      "projectPath": "C:\\NBP-Final\\NBP-BetterShop\\baze.csproj",
-      "packagesPath": "C:\\Users\\lukac\\.nuget\\packages\\",
-      "outputPath": "C:\\NBP-Final\\NBP-BetterShop\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\baze.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\NBP-BetterShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lukac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4103,7 +4103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -20,7 +20,7 @@ export default function Cart() {
     useEffect(() =>
     {
         getProducts();
-    }, []);
+    }, [products]);
 
     const getProducts = async () =>
     {
@@ -64,7 +64,7 @@ export default function Cart() {
                 <img className="starIcon" src={starIcon}/> {product.rating}
                 <p className="productInCartDescription">{product.description}</p>
                 <p className="productInCartPrice">No. of products: {product.count} <br/> Price: US ${(product.price*product.count).toFixed(2)}</p>
-                <button  className="removeButton" >Remove</button>
+                <Link to={`/delete/${product.productid}`}><button  className="removeButton" >Remove</button></Link>
             </div>
             </div> 
         ))}

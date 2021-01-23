@@ -21,6 +21,8 @@ import Signup from "./Signup"
 import Home from "./Home";
 import Buy from "./Buy";
 import Logout from "./Logout";
+import BuyNow from "./BuyNow";
+import DeleteFromCart from "./DeleteFromCatr";
 
 import MainLayout from "./Layout";
 
@@ -84,7 +86,12 @@ export default function App() {
               <Route path="/buy/:total">
                 <Buy />
               </Route>
-              
+              <Route path="/buyNow/:count/:product">
+                <BuyNow />
+              </Route>
+              <Route path="/delete/:dproduct">
+                <DeleteFromCart />
+              </Route>
            
             
             
