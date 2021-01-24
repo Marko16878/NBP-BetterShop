@@ -34,19 +34,19 @@ export default function Categories() {
         Computer and Office
       </div>
     </Link>
-    <Link to="/">
+    <Link to="/products/customerElectronics">
       <div className="categoryCard">
         <img src={icon3}/><br/>
         Consumer Electronics
       </div>
     </Link>
-    <Link to="/">
+    <Link to="/products/luggageAndBags">
       <div className="categoryCard">
         <img src={icon4}/><br/>
-        Lagguage and Bags
+        Luggage and Bags
       </div>
     </Link>
-    <Link to="/">
+    <Link to="/products/sportsAndEntertainment">
       <div className="categoryCard">
         <img src={icon5}/><br/>
         Sports and Emtertainment
@@ -95,18 +95,28 @@ export default function Categories() {
     Consumer Electronics
       
       <ul>
+        <Link to="/products/smartElectronics">
         <li>Smart Electronics</li>
+        </Link>
+        <Link to="/products/powerSource">
         <li>Power Source</li>
+        </Link>
       </ul>
     </div>
 
     <div className="divSubcategories">
-    Lagguage and Bags
+    Luggage and Bags
       
       <ul>
+        <Link to="/products/womenBags">
         <li>Women's Bags</li>
+        </Link>
+        <Link to="/products/menBags">
         <li>Men's Bags</li>
-        <li>Backpaks</li>
+        </Link>
+        <Link to="/products/luggageAndTravelBugs">
+        <li>Luggage And Travel Bugs</li>
+        </Link>
       </ul>
     </div>
 
@@ -114,9 +124,15 @@ export default function Categories() {
     Sports and Emtertainment
       
       <ul>
+        <Link to="/products/sportsClothing">
         <li>Sports Clothing</li>
+        </Link>
+        <Link to="/products/sportsAccessories">
         <li>Sport Accessories</li>
+        </Link>
+        <Link to="/products/entertainment">
         <li>Entertainment</li>
+        </Link>
       </ul>
     </div>
 

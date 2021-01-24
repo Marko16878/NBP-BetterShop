@@ -13,7 +13,7 @@ import recommendedToYouIcon from "./Images/recommendedToYouIcon.png"
 
 
 
-  const Slideshow = ({data1,data2}) => {
+  const Slideshow = ({data1,data2,data3,data4,data5}) => {
     return (
       <div className="slide-container-products">
         <Slide showNavs="false">
@@ -35,6 +35,45 @@ import recommendedToYouIcon from "./Images/recommendedToYouIcon.png"
           <div className="topRanking">
                 
                 {data2.map(product => (
+                   <Product productid={product.productid} image={product.image} price={product.price} name={product.name} rating={product.rating} sold={product.sold}/> 
+              ))}
+    
+    
+                </div>
+              
+            
+          </div>
+          <div className="each-slide-products">
+           <p><img className="" src={bestSellersIcon}/> Best Sellers from Consumer Electronics</p>
+          <div className="topRanking">
+                
+                {data3.map(product => (
+                   <Product productid={product.productid} image={product.image} price={product.price} name={product.name} rating={product.rating} sold={product.sold}/> 
+              ))}
+    
+    
+                </div>
+              
+            
+          </div>
+          <div className="each-slide-products">
+           <p><img className="" src={bestSellersIcon}/> Best Sellers from Luggage and Bags</p>
+          <div className="topRanking">
+                
+                {data4.map(product => (
+                   <Product productid={product.productid} image={product.image} price={product.price} name={product.name} rating={product.rating} sold={product.sold}/> 
+              ))}
+    
+    
+                </div>
+              
+            
+          </div>
+          <div className="each-slide-products">
+           <p><img className="" src={bestSellersIcon}/> Best Sellers from Sports and Emtertainment</p>
+          <div className="topRanking">
+                
+                {data5.map(product => (
                    <Product productid={product.productid} image={product.image} price={product.price} name={product.name} rating={product.rating} sold={product.sold}/> 
               ))}
     

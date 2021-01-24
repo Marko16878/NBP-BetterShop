@@ -76,53 +76,50 @@ export default function Products() {
         </Link>
         
       </ul>
-    <Link to="/">
+    <Link to="/products/customerElectronics">
       <p className="mainCategory">
         Consumer Electronics
         </p>
     </Link>
     <ul>
-        <Link to="/products/android">
-          <li>Android</li>
+        <Link to="/products/smartElectronics">
+        <li>Smart Electronics</li>
         </Link>
-        <Link to="/products/mobilePhoneAccessories">
-          <li>Mobile Phone Accessories</li>
-        </Link>
-        <Link to="/products/iPhones">
-          <li>iPhones</li>
+        <Link to="/products/powerSource">
+        <li>Power Source</li>
         </Link>
       </ul>
-    <Link to="/">
+    <Link to="/products/luggageAndBags">
       
         <p className="mainCategory">
         Lagguage and Bags
         </p>
     </Link>
     <ul>
-        <Link to="/products/android">
-          <li>Android</li>
+        <Link to="/products/womenBags">
+        <li>Women's Bags</li>
         </Link>
-        <Link to="/products/mobilePhoneAccessories">
-          <li>Mobile Phone Accessories</li>
+        <Link to="/products/menBags">
+        <li>Men's Bags</li>
         </Link>
-        <Link to="/products/iPhones">
-          <li>iPhones</li>
+        <Link to="/products/luggageAndTravelBugs">
+        <li>Luggage And Travel Bugs</li>
         </Link>
       </ul>
-    <Link to="/">
+    <Link to="/products/sportsAndEntertainment">
       <p className="mainCategory">
         Sports and Emtertainment
         </p>
     </Link>
     <ul>
-        <Link to="/products/android">
-          <li>Android</li>
+        <Link to="/products/sportsClothing">
+        <li>Sports Clothing</li>
         </Link>
-        <Link to="/products/mobilePhoneAccessories">
-          <li>Mobile Phone Accessories</li>
+        <Link to="/products/sportsAccessories">
+        <li>Sport Accessories</li>
         </Link>
-        <Link to="/products/iPhones">
-          <li>iPhones</li>
+        <Link to="/products/entertainment">
+        <li>Entertainment</li>
         </Link>
       </ul>
     </div>
